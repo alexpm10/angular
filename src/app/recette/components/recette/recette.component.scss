@@ -1,0 +1,28 @@
+section {
+    // Donne la propriété Flex
+    display: flex;
+    // Centre son contenu au millieu
+    justify-content: center;
+    padding: 30px;
+    .content {
+        // Limite la taille de la todoList 
+        width: 600px;
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        display: grid;
+        display: grid; 
+        grid-template-columns: 70% 30%; 
+        gap: 15px;
+        > div {
+            padding: 15px;
+        }
+        .ingredient-wrapper {
+            border-left: 1px solid #ccc;
+            .ingredient {
+                display: flex;
+                justify-content: space-between;
+            }
+        } 
+    }
+}

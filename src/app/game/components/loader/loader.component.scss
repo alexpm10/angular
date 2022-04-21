@@ -1,0 +1,26 @@
+:host {
+    .content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      .donut-spinner {
+        animation: donut-spin 1.2s linear infinite;
+        border: 4px solid hsl(222, 100%, 95%);
+        border-left-color: var(--primary-color);
+        border-radius: 50%;
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+      }
+      @keyframes donut-spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    }
+    }

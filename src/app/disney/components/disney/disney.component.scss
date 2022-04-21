@@ -1,0 +1,21 @@
+section {
+    padding: 30px;
+    .content {
+        // Limite la taille de la todoList 
+        width: 90%;
+        padding: 30px;
+
+        display: grid;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%; 
+        gap: 15px;
+        > div {
+            border-radius: 15px;
+            background: white;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 15px;
+        }
+    }
+}
